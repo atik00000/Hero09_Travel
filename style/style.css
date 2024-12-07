@@ -413,7 +413,7 @@ color: #ffffff;
   width: 200px;
   height: 60px;
   display: flex;
-  gap: 24px;
+
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -471,20 +471,28 @@ li {
 
 /* news section */
 
-.news-box {
-  gap: 30px;
-  text-align: center;
-  margin: 100px auto;
+.input-box {
+  padding: 20px;
   border-radius: 20px;
-  width: 80%;
-  height: 50%;
+  margin: 100px auto;
+  border: 2px solid orangered;
+}
+
+.news-box {
+  margin-top: 100px;
+
+  text-align: center;
+  align-items: center;
+  gap: 100px;
+
   margin: 0 auto;
   display: flex;
-  border: 2px solid#FF5400;
+  width: 1200px;
+  justify-content: center;
 }
 
 input {
-
+border: none;
   width: 300px;
   margin: 50px auto;
   background-color: #F3F3F3;
@@ -501,23 +509,64 @@ input[type="email"]:hover {
 
 }
 
-.sub-button {
+.discount-button {
+  bottom: -200px;
+  right: 400px;
   color: #ffffff;
-  background-color: #FF5400;
   border: none;
-  width: 80%;
-  height: 60px;
-  display: flex;
-  gap: 24px;
-
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  position: relative;
+transform: rotate(-30deg);
   border-radius: 10px;
   font-size: larger;
+  width: 324px;
+  height: 120px;
+  background-color: #ff5400;
 }
 
+.news-title{
+
+font-weight: 800;
+font-size: 32px;
+line-height: normal;
+color: #ffffff;
+}
 .news-container {
   display: inline-flex;
 
+}
+.sub-button{
+  font-size: 2rem;
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  width: 393px;
+height: 5rem;
+background-color: #ff5400;
+}
+
+/* footer section */
+.footer-title{
+ margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Mulish;
+  font-weight: 800;
+  font-size: 2.8rem;
+
+}
+.footer {
+
+  text-align: center;
+  justify-content: center;
+text-align: center;
+
+ line-height: normal;
+  width: 100%;
+height: 502px;
+background-color:rgba(31, 30, 29, 0.1);
+}
+.footer-icons{
+  text-align: center;
+ justify-content: center;
 }
